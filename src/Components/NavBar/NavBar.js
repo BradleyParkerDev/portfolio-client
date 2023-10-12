@@ -92,12 +92,12 @@ const NavBar = (props) =>{
 
 
             {/* Visible NavBar */}
-            <div id='navbar-container' className=" flex font-awakenning antialiased border-black border-dashed border-[1px] ">
-                <div id='logo' className='flex min-w-[235px] md:min-w-[275px]  border-black border-dashed border-[1px]'>
+            <div id='navbar-container' className=" flex font-awakenning antialiased ">
+                <div id='logo' className='flex min-w-[235px] md:min-w-[275px] '>
                     <div id='nav-photo'>
                         <img className='h-[65px] w-[65px] md:h-[75px] md:w-[75px] ml-[8px] mt-[9px] md:mt-[21px] lg:mt-[29px]' src={bradleyPhoto}/>
                     </div>
-                    <div id='nav-name' className=' ml-[23px] mt-[30px] md:mt-[42px] lg:mt-[50px] text-[24px] h-[24px] md:text-[32px] md:h-[32px]  border-black border-dashed border-[1px]'>
+                    <div id='nav-name' className=' ml-[23px] mt-[30px] md:mt-[42px] lg:mt-[50px] text-[24px] h-[24px] md:text-[32px] md:h-[32px] '>
                         <p>
                             Bradley Parker
                         </p>
