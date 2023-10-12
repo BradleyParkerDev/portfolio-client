@@ -95,9 +95,9 @@ const NavBar = (props) =>{
             <div id='navbar-container' className=" flex font-awakenning antialiased ">
                 <div id='logo' className='flex min-w-[235px] md:min-w-[275px] '>
                     <div id='nav-photo'>
-                        <img className='h-[65px] w-[65px] md:h-[75px] md:w-[75px] ml-[8px] mt-[9px] md:mt-[21px] lg:mt-[29px]' src={bradleyPhoto}/>
+                        <img className='h-[65px] w-[65px] md:h-[75px] md:w-[75px] ml-[8px] mt-[9px] md:mt-[21px] lg:mt-[29px]' src={bradleyPhoto}  onClick={()=>{handleNav('/')}}/>
                     </div>
-                    <div id='nav-name' className=' ml-[23px] mt-[30px] md:mt-[42px] lg:mt-[50px] text-[24px] h-[24px] md:text-[32px] md:h-[32px] '>
+                    <div id='nav-name' className=' ml-[23px] mt-[30px] md:mt-[42px] lg:mt-[50px] text-[24px] h-[24px] md:text-[32px] md:h-[32px] '  onClick={()=>{handleNav('/')}}>
                         <p>
                             Bradley Parker
                         </p>
