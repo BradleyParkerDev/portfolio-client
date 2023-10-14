@@ -1,5 +1,55 @@
+import ProjectCard from "../Components/ProjectCard/ProjectCard"
+const ProjectsPage = (props) =>{
 
-const ProjectsPage = () =>{
+    const projects = [
+        {
+            name: 'ChatGPT Clone App',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            url:'ChatGPT_Clone_App'
+        },
+        {
+            name: 'Financial Calculator',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            url:'Financial_Calculator'
+        },
+        {
+            name: 'Data Science App',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            url:'Data_Science_App'
+        },
+        {
+            name: 'Todo List App',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            url:'Todo_List_App'
+        },
+        {
+            name: 'News App',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            url:'News_App'
+        },
+        {
+            name: 'Pokédex',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            url:'Pokédex'
+        },        
+    ]
+
+
+
+
+
+
+
+
+    const showProjects = (projects) =>{
+        return(
+            projects.map(project=>(<ProjectCard project={project}/>))
+        )
+    }
+
+
+
+
 
     return(
         <div id='projectspage-container'>
@@ -15,6 +65,13 @@ const ProjectsPage = () =>{
                     </div>
                 </div>
             </div>
+
+            <div  id='projectspage-content-container-outer' className="flex justify-center mt-[40px] md-lg:mt-[70px] w-[100%] h-[auto] ">
+                <div id='projectspage-content-container-inner' className="flex flex-wrap justify-evenly pl-[10px] pr-[10px] mb-[50px] w-[100%] max-w-[1330px] h-[auto] ">
+                    {showProjects(projects)}
+                </div>                
+            </div>
+
 
         </div>
     )
