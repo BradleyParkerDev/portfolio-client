@@ -64,7 +64,7 @@ const NavBar = (props) =>{
                         </div>                
                     </div>
                     <div id='reject-div' className='flex justify-end w-[100%] mt-[23px] md:mt-[40px] mr-[16px]'>
-                        <img className='h-[40px] w-[40px] md:h-[40px] md:w-[40px]' src={reject} onClick={()=>{closeNav()}}/>
+                        <img className='h-[35px] w-[35px] sm:h-[40px] sm:w-[40px] md:h-[40px] md:w-[40px]' src={reject} onClick={()=>{closeNav()}}/>
                     </div>
                 </div>
                 <div id='side-nav-div2' style={{fontSize:'32px', lineHeight:'32px'}} className='font-awakenning antialiased flex justify-center h-[36px] w-[100%] mb-[30px] '>
@@ -123,7 +123,7 @@ const NavBar = (props) =>{
                 </div>
                 {/* Mobile and Tablet - Hamburger Menu Button Visible  */}
                 <div id='nav-hamburger' className='lg:hidden flex justify-end w-[100%] '>
-                    <img className='h-[45px] w-[45px] mr-[18px] mt-[19px] md:mt-[36px] ' src={hamburger} onClick={()=>{openNav()}}/>
+                    <img className='h-[35px] w-[35px] sm:h-[45px] sm:w-[45px] mr-[18px] mt-[25px] sm:mt-[19px] md:mt-[36px] ' src={hamburger} onClick={()=>{openNav()}}/>
 
                 </div>
             </div>
