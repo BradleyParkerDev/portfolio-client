@@ -9,8 +9,6 @@ const NavBar = (props) =>{
 
     const openNav = () => {
         setSideNavWidth('100%')
-        console.log(sideNavWidth)
-
     }
 
     const closeNav = () => {
