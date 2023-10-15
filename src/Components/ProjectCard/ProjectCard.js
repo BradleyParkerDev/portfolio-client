@@ -17,16 +17,16 @@ const ProjectCard = (props) => {
 
 
         <div id='project-card-container' className="h-[455px] w-[100%] max-w-[345px] mb-[50px]  rounded-[10px] border-solid border-black border-[1px]">
-            <div id='pc-div1' className="flex justify-center w-[100%] h-[auto] ">
+            <div id='pc-div1' className="flex justify-center w-[100%] h-[auto]">
                 <div id='project-card-image' className="w-[100%] max-w-[295px] h-[170px] rounded-[5px] m-[20px] bg-portfolio-grey border-solid border-black border-[1px]">
                 </div>
             </div>
 
-            <div id='pc-div2' className="w-[100%] h-[190px]  ">
-                <div id='project-title' className="ml-[20px] mr-[20px] ">
+            <div id='pc-div2' className="w-[100%] h-[190px] ">
+                <div id='project-title' className="ml-[20px] mr-[20px]">
                     <p className="leading-none text-[22px] md-lg:text-[32px] font-awakenning antialiased">{project.name}</p>
                 </div>
-                <div id='project-card-description' className="ml-[20px] mr-[20px] ">
+                <div id='project-card-description' className="ml-[20px] mr-[20px]">
                     <p className="text-[16px]">{`${project.description} ...Click for full description.`}</p>
 
                 </div>
