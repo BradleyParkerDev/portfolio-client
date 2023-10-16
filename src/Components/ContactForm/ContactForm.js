@@ -1,6 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
-const baseURL =  process.env.PORTFOLIO_APP_BASE_URL
+const baseURL =  process.env.REACT_APP_BASE_URL
 
 const ContactForm = () =>{
     const [name, setName] = useState('')
@@ -38,7 +38,7 @@ const ContactForm = () =>{
 
     const handleSubmit = async () => {
         try {
-          const response = await axios.post("http://localhost:4000/api/users/contact", messageObject);
+          const response = await axios.post(`${baseURL}/users/contact`, messageObject);
           if (response.status === 200) {
             console.log('Email sent successfully');
           } else {
