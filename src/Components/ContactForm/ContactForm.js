@@ -1,4 +1,7 @@
 import { useState } from "react";
+import axios from "axios";
+const baseURL =  process.env.PORTFOLIO_APP_BASE_URL
+
 const ContactForm = () =>{
     const [name, setName] = useState('')
     const [emailAddress, setEmailAddress] = useState('')
@@ -33,11 +36,24 @@ const ContactForm = () =>{
     }
 
 
+    const handleSubmit = async () => {
+        try {
+          const response = await axios.post("http://localhost:4000/api/users/contact", messageObject);
+          if (response.status === 200) {
+            console.log('Email sent successfully');
+          } else {
+            console.error('Email sending failed');
+          }
+        } catch (error) {
+          console.error('Email sending failed:', error);
+        }
+        console.log(messageObject)
+    };
 
-    const contactSubmitButton = (messageObj) =>{
+    const contactSubmitButton = () =>{
         
         return(
-            <div id='submit-button' onClick={()=>{console.log(messageObj)}} className="flex justify-center w-[110px] h-[40px] pt-[6px]  bg-portfolio-red rounded-[10px]">
+            <div id='submit-button' onClick={()=>{handleSubmit()}} className="flex justify-center w-[110px] h-[40px] pt-[6px]  bg-portfolio-red rounded-[10px]">
                 <p className="font-awakenning text-white text-[24px] antialiased ">Submit</p>
             </div>
         )
