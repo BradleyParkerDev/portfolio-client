@@ -1,34 +1,41 @@
 import ProjectCard from "../Components/ProjectCard/ProjectCard"
+import financialCalculatorScreenshot from '../Images/Finanial-Calculator-Screenshot.gif'
 const ProjectsPage = (props) =>{
 
     const projects = [
         {
             name: 'ChatGPT Clone App',
+            cardImage:``,
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             url:'ChatGPT_Clone_App'
         },
         {
             name: 'Financial Calculator',
+            cardImage:`${financialCalculatorScreenshot}`,
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             url:'Financial_Calculator'
         },
         {
             name: 'Data Science App',
+            cardImage:``,
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             url:'Data_Science_App'
         },
         {
             name: 'Todo List App',
+            cardImage:``,
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             url:'Todo_List_App'
         },
         {
             name: 'News App',
+            cardImage:``,
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             url:'News_App'
         },
         {
             name: 'Pokédex',
+            cardImage:``,
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             url:'Pokédex'
         },        

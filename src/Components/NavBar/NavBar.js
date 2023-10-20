@@ -1,6 +1,6 @@
-import bradleyPhoto from '../../images/Bradley Photo.png'
-import hamburger from '../../images/Hamburger.png'
-import reject from '../../images/reject.png'
+import bradleyPhoto from '../../Images/Bradley Photo.png'
+import hamburger from '../../Images/Hamburger.png'
+import reject from '../../Images/reject.png'
 import { useNavigate } from 'react-router-dom'
 import { useState } from 'react'
 const NavBar = (props) =>{

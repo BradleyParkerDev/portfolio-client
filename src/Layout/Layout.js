@@ -1,7 +1,7 @@
 import NavBar from "../Components/NavBar/NavBar";
 import { Outlet } from "react-router-dom";
-import github from '../images/github.png'
-import linkedin from '../images/linkedin.png'
+import github from '../Images/github.png'
+import linkedin from '../Images/linkedin.png'
 
 const Layout = (props) =>{
     return(
