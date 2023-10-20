@@ -14,7 +14,7 @@ const ProjectsPage = (props) =>{
             name: 'Financial Calculator',
             cardImage:`${financialCalculatorScreenshot}`,
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-            gitHubRepo: 'https://github.com/BradleyParkerDev/portfolio-client',
+            gitHubRepo: 'https://github.com/BradleyParkerDev/financial-calculator',
             url:'Financial_Calculator'
         },
         {
