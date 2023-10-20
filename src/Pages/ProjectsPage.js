@@ -7,36 +7,42 @@ const ProjectsPage = (props) =>{
             name: 'ChatGPT Clone App',
             cardImage:``,
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            gitHubRepo: '',
             url:'ChatGPT_Clone_App'
         },
         {
             name: 'Financial Calculator',
             cardImage:`${financialCalculatorScreenshot}`,
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            gitHubRepo: 'https://github.com/BradleyParkerDev/portfolio-client',
             url:'Financial_Calculator'
         },
         {
             name: 'Data Science App',
             cardImage:``,
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            gitHubRepo: '',
             url:'Data_Science_App'
         },
         {
             name: 'Todo List App',
             cardImage:``,
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            gitHubRepo: '',
             url:'Todo_List_App'
         },
         {
             name: 'News App',
             cardImage:``,
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            gitHubRepo: '',
             url:'News_App'
         },
         {
             name: 'Pokédex',
             cardImage:``,
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            gitHubRepo: '',
             url:'Pokédex'
         },        
     ]
