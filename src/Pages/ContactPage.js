@@ -14,7 +14,7 @@ const ContactPage = (props) =>{
                 </div>
             </div>
             {/* Form */}
-            <div id='contactpage-div2' className="flex justify-center pl-[20px] pr-[20px] mb-[100px] w-[100%] h-[auto]">
+            <div id='contactpage-div2' className="flex justify-center pl-[20px] pr-[20px] mb-[50px] w-[100%] h-[auto]">
                 <ContactForm />
             </div>
 

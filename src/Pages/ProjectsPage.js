@@ -4,11 +4,11 @@ const ProjectsPage = (props) =>{
 
     const projects = [
         {
-            name: 'ChatGPT Clone App',
+            name: 'Chat App',
             cardImage:``,
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             gitHubRepo: '',
-            url:'ChatGPT_Clone_App'
+            url:'Chat_App'
         },
         {
             name: 'Financial Calculator',
@@ -18,11 +18,11 @@ const ProjectsPage = (props) =>{
             url:'Financial_Calculator'
         },
         {
-            name: 'Data Science App',
+            name: 'Periodic Table',
             cardImage:``,
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             gitHubRepo: '',
-            url:'Data_Science_App'
+            url:'Periodic_Table'
         },
         {
             name: 'Todo List App',
@@ -39,11 +39,11 @@ const ProjectsPage = (props) =>{
             url:'News_App'
         },
         {
-            name: 'Pokédex',
+            name: 'Data Science App',
             cardImage:``,
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             gitHubRepo: '',
-            url:'Pokédex'
+            url:'Data_Science_App'
         },        
     ]
 

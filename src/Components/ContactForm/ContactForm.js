@@ -41,6 +41,8 @@ const ContactForm = () =>{
           const response = await axios.post(`${baseURL}/users/contact`, messageObject);
           if (response.status === 200) {
             console.log('Email sent successfully');
+  
+
           } else {
             console.error('Email sending failed');
           }
@@ -48,6 +50,14 @@ const ContactForm = () =>{
           console.error('Email sending failed:', error);
         }
         console.log(messageObject)
+
+        // setName('')
+        // setEmailAddress('')
+        // setSubject('')
+        // setMessage('')
+
+        // alert('Message sent!');  
+    
     };
 
     const contactSubmitButton = () =>{
@@ -72,7 +82,7 @@ const ContactForm = () =>{
                     <input type='text' placeholder="Subject" value={subject} className="w-[100%] h-[100%] text-[24px] pl-[5px] pr-[5px] outline-none rounded-[5px]" onChange={handleSubjectChange}/>
                 </div>
                 <div id='message-field' className="w-[100%] h-[280px] bg-white border-black border-solid border-[1px] rounded-[5px] mb-[25px]">
-                    <textarea type='text' placeholder="Message" value={message} className="w-[100%] h-[100%] text-[24px] pl-[5px] pr-[5px] outline-none rounded-[5px]" onChange={handleMessageChange}/>
+                    <textarea type='text' placeholder="Message" value={message} className="w-[100%] min-h-[100%] max-h-[100%] text-[24px] pl-[5px] pr-[5px] outline-none rounded-[5px]" onChange={handleMessageChange}/>
                 </div>
             </div>
             <div id='cs-button-div' className="flex justify-end pt-[30px] w-[100%] max-w-[600px] h-[auto]">
