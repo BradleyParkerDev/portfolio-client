@@ -39,11 +39,11 @@ const ProjectsPage = (props) =>{
             url:'News_App'
         },
         {
-            name: 'Data Science App',
+            name: 'Python Backend App',
             cardImage:``,
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             gitHubRepo: '',
-            url:'Data_Science_App'
+            url:'Python_Backend_App'
         },        
     ]
 
