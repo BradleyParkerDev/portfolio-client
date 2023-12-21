@@ -6,6 +6,7 @@ import HomePage from './Pages/HomePage';
 import AboutPage from './Pages/AboutPage';
 import ProjectsPage from './Pages/ProjectsPage';
 import ContactPage from './Pages/ContactPage';
+import DescriptionPage from './Pages/DescriptionPage';
 
 function App(props) {
 
@@ -29,6 +30,10 @@ function App(props) {
         {
           path: "/contact",
           element: <ContactPage/>
+        },  
+        {
+          path: "/projects/description",
+          element: <DescriptionPage/>
         }      
       ]
 
